@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Siemens</Name>
+  <Overview>Energy monitor</Overview>
+  <Description></Description>
+  <Registry>https://registry.hub.docker.com/u/snoopy86/siemens</Registry>
+  <Repository>snoopy86/siemens</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/cron</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/032011/siemens.png</Banner>
+  <Icon>http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/032011/siemens.png</Icon>
+</Container>
