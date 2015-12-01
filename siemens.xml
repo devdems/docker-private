@@ -13,7 +13,7 @@
   <Data>
 	<Volume>
       <HostDir></HostDir>
-      <ContainerDir>/cron</ContainerDir>
+      <ContainerDir>/usr/src/myapp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
