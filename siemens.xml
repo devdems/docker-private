@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Siemens</Name>
-  <Overview>Energy monitor</Overview>
+  <Overview>Emoncms</Overview>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/snoopy86/siemens</Registry>
   <Repository>snoopy86/siemens</Repository>
@@ -13,7 +13,7 @@
   <Data>
 	<Volume>
       <HostDir></HostDir>
-      <ContainerDir>/scripts</ContainerDir>
+      <ContainerDir>/usr/src/myapp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
