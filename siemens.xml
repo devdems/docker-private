@@ -13,7 +13,7 @@
   <Data>
 	<Volume>
       <HostDir></HostDir>
-      <ContainerDir>/usr/src/myapp</ContainerDir>
+      <ContainerDir>/scripts</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
