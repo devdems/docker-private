@@ -17,6 +17,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/032011/siemens.png</Banner>
-  <Icon>http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/032011/siemens.png</Icon>
+  <Banner>https://raw.githubusercontent.com/snoopy86/docker-private/master/Siemens-logo-300x223.png</Banner>
+  <Icon>https://raw.githubusercontent.com/snoopy86/docker-private/master/Siemens-logo-300x223.png</Icon>
 </Container>
