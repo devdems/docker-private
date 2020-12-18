@@ -2,7 +2,7 @@
 <Container>
 <Beta>False</Beta>
 <Date>2020-04-02</Date>
-<Category>MediaServer:Music</Category>
+<Category>Productivity</Category>
   <Name>Hummingbot</Name>
   <Overview>
     Hummingbot
@@ -18,56 +18,46 @@
   <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=FDMP56NCG5A26&amp;source=url</DonateLink>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <ExtraParams>-it</ExtraParams>
   <Environment/>
   <Networking>
     <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>3483</HostPort>
-        <ContainerPort>3483</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>3483</HostPort>
-        <ContainerPort>3483</ContainerPort>
-        <Protocol>udp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>5353</HostPort>
-        <ContainerPort>5353</ContainerPort>
-        <Protocol>udp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>9000</HostPort>
-        <ContainerPort>9000</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>9090</HostPort>
-        <ContainerPort>9090</ContainerPort>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/LogitechMediaServer</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>/mnt/user/appdata/hummingbot/conf</HostDir>
+      <ContainerDir>/conf</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/music</ContainerDir>
+      <HostDir>/mnt/user/appdata/hummingbot/logs</HostDir>
+      <ContainerDir>/logs</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-	<Volume>
-      <HostDir>/var/run/dbus</HostDir>
-      <ContainerDir>/var/run/dbus</ContainerDir>
+    <Volume>
+      <HostDir>/mnt/user/appdata/hummingbot/data</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/hummingbot/scripts</HostDir>
+      <ContainerDir>/scripts</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/hummingbot/certs</HostDir>
+      <ContainerDir>/certs</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner>http://i.imgur.com/vA7y2Io.png</Banner>
-  <Icon>http://i.imgur.com/PoUuA3k.png</Icon>
+  <Banner>https://hummingbot.io/static/logo2-a631d1dd230447c3b4b0862788245468.png</Banner>
+  <Icon>https://hummingbot.io/static/logo2-a631d1dd230447c3b4b0862788245468.png</Icon>
 </Container>
