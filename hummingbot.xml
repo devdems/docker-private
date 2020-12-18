@@ -21,7 +21,7 @@
   <ExtraParams>-it</ExtraParams>
   <Environment/>
   <Networking>
-    <Mode>host</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>5000</HostPort>
